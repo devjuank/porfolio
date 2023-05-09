@@ -1,6 +1,6 @@
 const ghpages = require("gh-pages");
 const pathname = `${__dirname}/build`;
-const repoURL = "https://devjuank.github.io/porfolio/";
+const repoURL = "https://github.com/devjuank/devjuank.github.io.git";
 
 ghpages.publish(
   pathname,
