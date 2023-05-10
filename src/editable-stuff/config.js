@@ -9,26 +9,18 @@ const mainBody = {
   firstName: "Juan Carlos",
   middleName: "",
   lastName: "Ojeda Gomez",
-  message: " Passionate about tecnology. ",
+  message: " Passionate about tecnology.",
   icons: [
     {
       image: "fa-github",
       url: "https://github.com/devjuank",
     },
     {
-      image: "fa-facebook",
-      url: "https://www.linkedin.com/in/juank-dev/",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.linkedin.com/in/juank-dev/",
+      image: "fa-github",
+      url: "https://github.com/devjuank",
     },
     {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/juank-dev/",
-    },
-    {
-      image: "fa-twitter",
       url: "https://www.linkedin.com/in/juank-dev/",
     },
   ],
@@ -52,7 +44,7 @@ const about = {
   show: true,
   heading: "About Me",
   imageLink: require("../editable-stuff/juank.png"),
-  imageSize: 375,
+  imageSize: 390,
   message:
     "My name is Juan Carlos. hello! my name is juan carlos, I have 7 years of experience working in IT, I started working as a full stack developer, then I specialized in backend, and finally working as SRE/Devops.",
   resume: "https://drive.google.com/file/d/1yugTrbis5nP5bMakYSVuiXtjY4nMMR8j/view?usp=share_link",
@@ -131,18 +123,44 @@ const getInTouch = {
 };
 
 const experiences = {
-  show: false,
-  heading: "Experiences",
+  show: true,
+  heading: "Challenges & Experiences",
   data: [
     {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
+      name: 'Watchdog Systems',// Here Add Company Name
+      companylogo: require('../assets/img/watchdog.png'),
+      description: 'Watchdog Systems is a company that provides solutions for the management of the supply chain, through the use of technology and the development of software solutions.',
+      company: 'Mercado Libre',
     },
     {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
+      name: 'ETL Pipeline',
+      companylogo: require('../assets/img/etl-pipeline.png'),
+      description: 'The ETL pipeline is a process that extracts data from a source, transforms it into a usable format, and loads it into a data warehouse. The ETL pipeline is a fundamental part of the data warehouse architecture.',
+      company: 'Mercado Libre',
+    },
+    {
+      name: 'Migratation to microservice architectue',// Here Add Company Name
+      companylogo: require('../assets/img/watchdog.png'),
+      description: 'The microservice architecture is a design pattern that structures an application as a collection of loosely coupled services, which implement business capabilities. The microservice architecture enables the continuous delivery/deployment of large, complex applications.',
+      company: 'Goverment of the city of Buenos Aires',
+    },
+    {
+      name: 'AWS architectue',
+      description: 'Amazon Web Services (AWS) is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis.',
+      companylogo: require('../assets/img/watchdog.png'),
+      company: 'Bittrap',
+    },
+    {
+      name: 'Autoscaling Kubernetes',// Here Add Company Name
+      description: 'Kubernetes is an open-source container-orchestration system for automating computer application deployment, scaling, and management.',
+      companylogo: require('../assets/img/watchdog.png'),
+      company: 'Pangea',
+    },
+    {
+      name: 'Kubernetes deployed in GCP and AWS',// Here Add Company Name
+      description: 'Kubernetes deployed in GCP and AWS',
+      companylogo: require('../assets/img/watchdog.png'),
+      company: 'Pangea',
     },
   ]
 }
