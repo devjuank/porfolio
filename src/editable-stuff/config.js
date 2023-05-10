@@ -92,33 +92,44 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
-    { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "AWS", value: 90 },
+    { name: "GCP", value: 75 },
+    { name: "Golang", value: 90 },
+    { name: "Python", value: 65 },
+    { name: "PHP", value: 90 },
+    { name: "Bash", value: 80 },
+    { name: "Terraform", value: 90 },
+    { name: "Ansible", value: 55 },
+    { name: "Linux", value: 80 },
+    { name: "Datadog", value: 80 },
+    { name: "CloudWatch", value: 80 },
+    { name: "Graphana", value: 80 },
+    { name: "Kivana", value: 80 },
+    { name: "SQL", value: 90 },
+    { name: "Mysql", value: 90 },
+    { name: "Postgres", value: 90 },
+    { name: "Javascript", value: 90 },
+    { name: "React", value: 50 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 80 },
     { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
+    { name: "Positivity", value: 90 },
     { name: "Adaptability", value: 85 },
     { name: "Problem Solving", value: 75 },
     { name: "Empathy", value: 90 },
     { name: "Organization", value: 70 },
     { name: "Creativity", value: 90 },
+    { name: "Comunication", value: 90 },
   ],
 };
 
-// GET IN TOUCH SECTION
+// Contact SECTION
 const getInTouch = {
   show: true,
-  heading: "Get In Touch",
+  heading: "Contact me",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
+    "If you want to contact me, please send me a message and I will reply as soon as possible.",
   email: "juanki.ijcog@gmail.com",
 };
 
