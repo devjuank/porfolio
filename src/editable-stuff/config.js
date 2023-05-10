@@ -47,7 +47,7 @@ const about = {
   imageSize: 390,
   message: "Hello! My name is Juan Carlos, I have 7 years of experience working in IT, I started working as a Full Stack Developer, then I specialized in Backend, and currently i am working as a SRE/DevOps. You can see more details in my resume.",
   messageSecond: "algo",
-  resume: "https://drive.google.com/file/d/1yugTrbis5nP5bMakYSVuiXtjY4nMMR8j/view?usp=share_link",
+  resume: "https://drive.google.com/file/d/1ocdMRc4j16vZNveSwWNR2FGIW_bakZ_5/view?usp=sharing",
 };
 
 // PROJECTS SECTION
