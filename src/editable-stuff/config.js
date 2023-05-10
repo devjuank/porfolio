@@ -9,7 +9,7 @@ const mainBody = {
   firstName: "Juan Carlos",
   middleName: "",
   lastName: "Ojeda Gomez",
-  message: " Passionate about tecnology.",
+  message: "Software Engineer, SRE, DevOps, Cloud Engineer, Backend Developer.",
   icons: [
     {
       image: "fa-github",
@@ -45,8 +45,8 @@ const about = {
   heading: "About Me",
   imageLink: require("../editable-stuff/juank.jpeg"),
   imageSize: 390,
-  message:
-    "My name is Juan Carlos. hello! my name is juan carlos, I have 7 years of experience working in IT, I started working as a full stack developer, then I specialized in backend, and finally working as SRE/Devops.",
+  message: "Hello! My name is Juan Carlos, I have 7 years of experience working in IT, I started working as a Full Stack Developer, then I specialized in Backend, and currently i am working as a SRE/DevOps. You can see more details in my resume.",
+  messageSecond: "algo",
   resume: "https://drive.google.com/file/d/1yugTrbis5nP5bMakYSVuiXtjY4nMMR8j/view?usp=share_link",
 };
 
