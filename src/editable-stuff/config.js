@@ -151,26 +151,26 @@ const experiences = {
     },
     {
       name: 'Migratation to microservice architectue',// Here Add Company Name
-      companylogo: require('../assets/img/watchdog.png'),
+      companylogo: require('../assets/img/migration-to-microservice.jpg'),
       description: 'The microservice architecture is a design pattern that structures an application as a collection of loosely coupled services, which implement business capabilities. The microservice architecture enables the continuous delivery/deployment of large, complex applications.',
       company: 'Goverment of the city of Buenos Aires',
     },
     {
       name: 'AWS architectue',
       description: 'Amazon Web Services (AWS) is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis.',
-      companylogo: require('../assets/img/watchdog.png'),
+      companylogo: require('../assets/img/ecs-architecture.png'),
       company: 'Bittrap',
     },
     {
       name: 'Autoscaling Kubernetes',// Here Add Company Name
       description: 'Kubernetes is an open-source container-orchestration system for automating computer application deployment, scaling, and management.',
-      companylogo: require('../assets/img/watchdog.png'),
+      companylogo: require('../assets/img/kubernetes-hpa.png'),
       company: 'Pangea',
     },
     {
       name: 'Kubernetes deployed in GCP and AWS',// Here Add Company Name
-      description: 'Kubernetes deployed in GCP and AWS',
-      companylogo: require('../assets/img/watchdog.png'),
+      description: 'Kubernetes is an open-source container-orchestration system for automating computer application deployment, scaling, and management.',
+      companylogo: require('../assets/img/multicloud.png'),
       company: 'Pangea',
     },
   ]
