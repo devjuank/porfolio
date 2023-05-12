@@ -1,18 +1,22 @@
 {
   "files": {
     "main.css": "/porfolio/static/css/main.778eeed7.css",
-    "main.js": "/porfolio/static/js/main.a9ffbb7f.js",
+    "main.js": "/porfolio/static/js/main.5d58cd86.js",
     "static/js/787.4b24f717.chunk.js": "/porfolio/static/js/787.4b24f717.chunk.js",
+    "static/media/ecs-architecture.png": "/porfolio/static/media/ecs-architecture.d37b92530571299be2a7.png",
     "static/media/juank.jpeg": "/porfolio/static/media/juank.c70660f6012c03ad4c6d.jpeg",
     "static/media/watchdog.png": "/porfolio/static/media/watchdog.8d4a128186b3594a849d.png",
-    "static/media/etl-pipeline.png": "/porfolio/static/media/etl-pipeline.055f2a85e63869586c4c.png",
+    "static/media/kubernetes-hpa.png": "/porfolio/static/media/kubernetes-hpa.88074b5bf89384353bf2.png",
+    "static/media/migration-to-microservice.jpg": "/porfolio/static/media/migration-to-microservice.391782afcab4259c51c4.jpg",
+    "static/media/multicloud.png": "/porfolio/static/media/multicloud.b0b703121703d0ae7ea9.png",
+    "static/media/etl-pipeline.png": "/porfolio/static/media/etl-pipeline.9da4787bcad256c15544.png",
     "index.html": "/porfolio/index.html",
     "main.778eeed7.css.map": "/porfolio/static/css/main.778eeed7.css.map",
-    "main.a9ffbb7f.js.map": "/porfolio/static/js/main.a9ffbb7f.js.map",
+    "main.5d58cd86.js.map": "/porfolio/static/js/main.5d58cd86.js.map",
     "787.4b24f717.chunk.js.map": "/porfolio/static/js/787.4b24f717.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.778eeed7.css",
-    "static/js/main.a9ffbb7f.js"
+    "static/js/main.5d58cd86.js"
   ]
 }
