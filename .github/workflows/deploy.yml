@@ -5,14 +5,14 @@ permissions:
 jobs:
   build-and-deploy:
     concurrency: ci-${{ github.ref }} # Recommended if you intend to make multiple deployments in quick succession.
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-20.04
     strategy:
       matrix:
         node-version: [20]
     steps:
       - name: Checkout 🛎️
         uses: actions/checkout@v3
-      - name: Use Node 16 ${{ matrix.node-version }}
+      - name: Use Node ${{ matrix.node-version }}
         uses: actions/setup-node@v2
         with:
           node-version: ${{ matrix.node-version }}
@@ -20,8 +20,9 @@ jobs:
         run: |
           npm ci
           npm run build
-
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: build # The folder the action should deploy.
+      - name: Lint
+        run: npm run eslint
