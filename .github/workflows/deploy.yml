@@ -24,5 +24,3 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: build # The folder the action should deploy.
-      - name: Lint
-        run: npm run eslint
