@@ -157,7 +157,7 @@ const experiences = {
     },
     {
       name: 'AWS architectue',
-      description: '3. Infrastructure migration from DigitalOcean to AWS. I migrated all the infrastructure to AWS using EC2, S3, Route53, ECR, and IAM with Terraform and Bash Scripts for provisioning. Additionally, I used Terraform to create alerts and dashboards in CloudWatch for monitoring the infrastructure. Moreover, for container monitoring, I utilized Grafana.',
+      description: 'Infrastructure migration from DigitalOcean to AWS. I migrated all the infrastructure to AWS using EC2, S3, Route53, ECR, and IAM with Terraform and Bash Scripts for provisioning. Additionally, I used Terraform to create alerts and dashboards in CloudWatch for monitoring the infrastructure. Moreover, for container monitoring, I utilized Grafana.',
       companylogo: require('../assets/img/ecs-architecture.png'),
       company: 'Bittrap',
     },
@@ -167,12 +167,12 @@ const experiences = {
       companylogo: require('../assets/img/kubernetes-hpa.png'),
       company: 'Pangea',
     },
-    {
+    /*{
       name: 'Kubernetes deployed in GCP and AWS',// Here Add Company Name
       description: 'Kubernetes is an open-source container-orchestration system for automating computer application deployment, scaling, and management.',
       companylogo: require('../assets/img/multicloud.png'),
       company: 'Pangea',
-    },
+    },*/
   ]
 }
 
