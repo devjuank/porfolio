@@ -140,30 +140,30 @@ const experiences = {
     {
       name: 'Watchdog Systems',// Here Add Company Name
       companylogo: require('../assets/img/watchdog.png'),
-      description: 'Watchdog Systems is a company that provides solutions for the management of the supply chain, through the use of technology and the development of software solutions.',
+      description: 'Watchdog Service for conducting checks on HTTP, TCP, and ICMP at Mercado Libre. To complete this objective, I used GoLang to build the Backend and the Agents. For deployment, I utilized Docker, ECS, and ECR. To ensure data transfer and security, I employed AWS IoT, MQTT, and SQS. Additionally, for displaying Watchdog Metrics, I utilized Datadog.',
       company: 'Mercado Libre',
     },
     {
       name: 'ETL Pipeline',
       companylogo: require('../assets/img/etl-pipeline.png'),
-      description: 'The ETL pipeline is a process that extracts data from a source, transforms it into a usable format, and loads it into a data warehouse. The ETL pipeline is a fundamental part of the data warehouse architecture.',
+      description: 'Creation of ETL Pipeline for Ensuring Personal Data Privacy at Mercado Libre, to achieve this objective I used Golang mainly to build Extractor, Transformer, Analyzer, and Loader Modules. Additionally I connected this service with other to identify and locate all instances of Personally Identifiable Information (PII) stored across various data storages within Mercado Libre. ',
       company: 'Mercado Libre',
     },
     {
       name: 'Migratation to microservice architectue',// Here Add Company Name
       companylogo: require('../assets/img/migration-to-microservice.jpg'),
-      description: 'The microservice architecture is a design pattern that structures an application as a collection of loosely coupled services, which implement business capabilities. The microservice architecture enables the continuous delivery/deployment of large, complex applications.',
+      description: "Development of a Driver's License System for the Buenos Aires City Government. Using Laravel, PHP, JavaScript, Bootstrap, and HTML, I developed the Theoretical Test. Additionally, I initiated the process of migrating from a Monolithic Architecture to a Microservices Architecture using Docker and decoupling some modules.",
       company: 'Goverment of the city of Buenos Aires',
     },
     {
       name: 'AWS architectue',
-      description: 'Amazon Web Services (AWS) is a subsidiary of Amazon providing on-demand cloud computing platforms and APIs to individuals, companies, and governments, on a metered pay-as-you-go basis.',
+      description: '3. Infrastructure migration from DigitalOcean to AWS. I migrated all the infrastructure to AWS using EC2, S3, Route53, ECR, and IAM with Terraform and Bash Scripts for provisioning. Additionally, I used Terraform to create alerts and dashboards in CloudWatch for monitoring the infrastructure. Moreover, for container monitoring, I utilized Grafana.',
       companylogo: require('../assets/img/ecs-architecture.png'),
       company: 'Bittrap',
     },
     {
       name: 'Autoscaling Kubernetes',// Here Add Company Name
-      description: 'Kubernetes is an open-source container-orchestration system for automating computer application deployment, scaling, and management.',
+      description: 'Autoscaling Services in Kubernetes and the Setup of OpenSearch in GCP. To implement autoscaling, I used Python to read a config file and generate the necessary Kubernetes files. Moreover, I modified the GitLab pipelines to apply these changes to the Kubernetes Cluster.',
       companylogo: require('../assets/img/kubernetes-hpa.png'),
       company: 'Pangea',
     },
