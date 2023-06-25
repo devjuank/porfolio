@@ -135,10 +135,10 @@ const getInTouch = {
 
 const experiences = {
   show: true,
-  heading: "Challenges & Experiences",
+  heading: "Challenging Projects",
   data: [
     {
-      name: 'Watchdog Systems',// Here Add Company Name
+      name: 'Watchdog Systems',
       companylogo: require('../assets/img/watchdog.png'),
       description: 'Watchdog Service for conducting checks on HTTP, TCP, and ICMP at Mercado Libre. To complete this objective, I used GoLang to build the Backend and the Agents. For deployment, I utilized Docker, ECS, and ECR. To ensure data transfer and security, I employed AWS IoT, MQTT, and SQS. Additionally, for displaying Watchdog Metrics, I utilized Datadog.',
       company: 'Mercado Libre',
@@ -150,7 +150,7 @@ const experiences = {
       company: 'Mercado Libre',
     },
     {
-      name: 'Migratation to microservice architectue',// Here Add Company Name
+      name: 'Code restructuring and Architecture Migration',
       companylogo: require('../assets/img/migration-to-microservice.jpg'),
       description: "Development of a Driver's License System for the Buenos Aires City Government. Using Laravel, PHP, JavaScript, Bootstrap, and HTML, I developed the Theoretical Test. Additionally, I initiated the process of migrating from a Monolithic Architecture to a Microservices Architecture using Docker and decoupling some modules.",
       company: 'Goverment of the city of Buenos Aires',
@@ -176,9 +176,56 @@ const experiences = {
   ]
 }
 
+const certifications = {
+  show: true,
+  heading: "Certifications",
+  data: [{
+      name: 'AWS Certified Cloud Practitioner',
+      image: require('../assets/img/aws-certified-cloud-practitioner.png'),
+      certificationID: '9B5EY84C7N44QXSY',
+      link: 'https://www.credly.com/badges/e53c3029-13c2-4966-9a69-2a05dff84a51/public_url',
+    },
+    {
+      name: 'Google Cloud Plarform',
+      image: require('../assets/img/diploma-fundamentos-google-2018.jpg'),
+      certificationID: '7408f3f9-dd48-4fa8-98bf-68d63cb49860',
+      link: 'https://platzi.com/@juanki1989',
+    },
+    {
+      name: 'Terraform',
+      image: require('../assets/img/diploma-devops-terraform.jpg'),
+      certificationID: '74c150af-4ea1-4a96-bf92-d8222c6d7a22',
+      link: 'https://platzi.com/@juanki1989',
+    },
+    /*{
+      name: 'Golang',
+      image: require('../assets/img/diploma-go-basico.jpg'),
+      certificationID: 'cOf77665-025d-484a-93ba-4368401fea5',
+      link: 'https://platzi.com/@juanki1989',
+    },
+    {
+      name: 'Python',
+      image: require('../assets/img/diploma-python-basico.jpg'),
+      certificationID: 'cOf77665-025d-484a-93ba-4368401fea5',
+      link: 'https://platzi.com/@juanki1989',
+    },
+    {
+      name: 'Gitlab',
+      image: require('../assets/img/diploma-gitlab.jpg'),
+      certificationID: 'cOf77665-025d-484a-93ba-4368401fea5',
+      link: 'https://platzi.com/@juanki1989',
+    },
+    {
+      name: 'Github Actions',
+      image: require('../assets/img/diploma-github-actions.jpg'),
+      certificationID: 'cOf77665-025d-484a-93ba-4368401fea5',
+      link: 'https://platzi.com/@juanki1989',
+    },*/
+  ] 
+}
 // Blog SECTION
 // const blog = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences, certifications };

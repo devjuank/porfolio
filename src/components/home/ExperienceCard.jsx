@@ -13,6 +13,7 @@ const ExperienceCard = ({ data }) => {
         <Card.Body>
           <Card.Img variant="top" src={data.companylogo}/>
           <Card.Title as="h5">{data.name || <Skeleton />} </Card.Title>
+          <Card.Subtitle className="mb-2 text-muted">At {data.company || <Skeleton />}</Card.Subtitle>
           <Card.Text>{(!data.description) ? "" : data.description || <Skeleton count={3} />} </Card.Text>
         </Card.Body>
       </Card>
